@@ -1,0 +1,9 @@
+curl -X GET http://localhost:3000/users
+###
+curl -X POST http://localhost:3000/register -H "Content-Type: application/json" -d '{"name": "Pedrin", "email": "Pedro120@example.com", "password":"senha60"}'
+###
+curl -X POST http://localhost:3000/login -H "Content-Type: application/json" -d '{"email": "Pedro120@example.com", "password":"senha58"}'
+###
+curl -X GET http://localhost:3000/books
+###
+curl -X POST http://localhost:3000/books -H "Content-Type: application/json" -d '{"title": "A volta do que foi", "author": "DinamoKyev", "price": "8.0000"}'
